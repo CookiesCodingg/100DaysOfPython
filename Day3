@@ -1,0 +1,6 @@
+food = ("Bigge Cheese Burger")
+plant = ("Green Vegetable")
+cooking = ("Grill")
+burnedFood = ("Burnt")
+householdItem = ("House Brick")
+print(cooking + " the " + food + " with " + burnedFood + " " + plant + " on a bed of " + householdItem)
