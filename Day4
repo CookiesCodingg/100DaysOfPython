@@ -1,0 +1,8 @@
+print("Boyfriend Application ;)\n"   )
+
+Name = input("what is your name: ")
+Dislikes = input("What is something you dislike: ")
+Shape = input("Name a shape: ")
+favDinosaur = input("What is your favorite dinosaur: ")
+
+print ("Once upon a time there was a person named " + Name + " who loved " + Shape + "'s, they also loved " + Dislikes + "If they were to be a dinosaur they would be a " + favDinosaur)
