@@ -1,0 +1,17 @@
+print("Friendship test")
+
+Name = input("1. What is my name: ")
+if Name == "Ethan":
+ print ("true")
+else:
+  print("ennnnnnnnnnn WRONG")
+Animal = input("1. What is my Favorite animal: ")
+if Animal == "Axolotl":
+  print ("true")
+else:
+  print("ennnnnnnnnnn WRONG")
+Color = input("1. What is my Favorite Color: ")
+if Color == "Pink":
+  print ("true")
+else:
+  print("ennnnnnnnnnn WRONG")
