@@ -1,0 +1,11 @@
+season = input("what is your favorite Game?")
+if season == "lol":
+  print("Whose your main and what role?.")
+elif season == "valorant":
+  print("Whats your favorite skin line")
+elif season == "minecraft":
+  print("goat")
+elif season == "roblox":
+  print("I see you")
+else: 
+  print("I'd rather read a book then that...")
