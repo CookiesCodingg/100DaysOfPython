@@ -1,0 +1,25 @@
+game = input("Whats your favorite Riot game? ")
+if game == "League of Legends":
+  lane = input("Awesome what lane do you play? ")
+  if lane =="Top":
+    print("yikersss")
+  elif lane == "Jungle":
+    print("ego")
+  elif lane == "Mid":
+    print("insane ego")
+  elif lane == "ADC":
+    print("your a masochist?")
+  elif lane == "support":
+    print("your a real one for that one")
+elif game == "Valorant":
+  role = input("What role do you play? ")
+  if role == "Controller":
+    print("coo coo coo coo")
+  if role == "Duelist":
+    print("ight aslong as your not a cheating reyna player")
+  if role == "Initiator":
+    print("L")
+  if role == "Sentinel":
+    print("aslong as your aren't locking harbor lit")
+else:
+  print("Yeah your probably a little to normal to be talking to me")
