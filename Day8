@@ -1,0 +1,26 @@
+name = input("What is your name? ")
+dayOfWeek = input("What is the day of the week is it? ")
+favFood = input("What is your favorite food? ")
+favColor = input("What is your favorite color? ")
+favDinosaur = input("What is your favorite dinosaur? ")
+favIceCream = input("What is your favorite ice cream flavor? ")
+favDogBreed = input("What is your favorite dog breed? ")
+
+if dayOfWeek == "Sunday" or dayOfWeek == "sunday":
+  print("It's sunday " + name + " Make it a good one!")
+  print("You should go get some " + favIceCream + " ice cream!")
+if dayOfWeek == "Monday" or dayOfWeek == "monday":
+  print("It's monday")
+  print("Heard a wild " + favDinosaur + "is roaming around here")
+if dayOfWeek == "Tuesday" or dayOfWeek == "tuesday":
+  print("It's tuesday")
+  print("You should adopt a  " + favDogBreed + " heard ya love em!")
+if dayOfWeek == "Wednesday" or dayOfWeek == "wednesday":
+  print("It's wednesday")
+  print("I heard people that liek the color " + favColor + " are gonna have something terrible happen to them today")
+if dayOfWeek == "Thursday" or dayOfWeek == "thursday":
+  print("It's thursday I and I'm not feeling creative so thats it")
+if dayOfWeek == "Friday" or dayOfWeek == "friday":
+  print("It's friday I and I'm not feeling creative so thats it")
+if dayOfWeek == "Saturday" or dayOfWeek == "saturday":
+  print("It's saturday pig out on some " + favFood + " before its back to wagey wagey")
