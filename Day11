@@ -1,0 +1,7 @@
+secondsInAYear = 60 * 60 * 24 * 31 * 12 * 365
+secondsInALeapYear = 60 * 60 * 24 * 31 * 12 * 366
+leapYear = input("Is this a leap year? ")
+if leapYear == "no":
+  print(secondsInAYear , "seconds in a year")
+else :
+  print(secondsInALeapYear , "seconds in a year")
