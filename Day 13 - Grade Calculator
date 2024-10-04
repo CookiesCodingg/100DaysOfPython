@@ -1,0 +1,15 @@
+testName = input("What is the name of your test?")
+maxScore = int(input("What is the maximum score you can receive?"))
+userScore = int(input("What score did you receive?"))
+userScorePercentage = round((userScore/maxScore) * 100, 2)
+print(userScorePercentage)
+if userScorePercentage >= 90:
+  print("You received an A")
+elif userScorePercentage >= 80:
+  print("You received a B")
+elif userScorePercentage >= 70:
+  print("You received a C")
+elif userScorePercentage >= 60:
+  print("You received a D")
+else:
+  print("You received an U apparently not an F?")
