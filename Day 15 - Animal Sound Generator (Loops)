@@ -1,0 +1,13 @@
+#Animal Nose Machine
+
+satisfaction = ""
+#Defines variable to check if user is satisfied
+
+while satisfaction != "y":
+  animal = input("What animal sound would you like to hear? ")
+  print("", animal, "Goes (animal noise)")
+  satisfaction = input("Are you satisfied with your animal sound? (y/n)")
+#While loop to get animal sound and see if the user is satisifed yet
+
+print("Glad your satisfied have a wonderful day!")
+#Simple goodbye statement
