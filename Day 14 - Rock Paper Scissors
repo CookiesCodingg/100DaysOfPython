@@ -1,0 +1,17 @@
+#Rock Paper Scissors
+
+
+from getpass import getpass as input
+  #Hides the user's input
+
+player1 = input("Player 1, choose Rock (R), Paper (P), Scissors (S): ")
+player2 = input("Player 1, choose Rock (R), Paper (P), Scissors (S): ")
+  # This gets both the players inputs for Rock Paper Scissors
+
+if player1 == player2 :
+  print("It's a tie!")
+elif (player1 == "R" and player2 == "S") or (player1 == "P" and player2 == "R") or (player1 == "S" and player2 == "P"):
+  print("Player 1 Wins!")
+else:
+  print("Player 2 Wins!")
+  # This esentially checks all possible series of inputs and prints the winner
