@@ -1,0 +1,20 @@
+#Fill in the Blanks for Cookies!
+print("Fill in the blanks game!")
+print("Simply fill in the blanks with your input when you get it correct")
+print("You will be rewarded with a cookie point!")
+print("For every wrong guess you will lose a cookie point!")
+print("You start with 5 cookie points")
+print("The Maximum score you can get is 5 cookie points\n\n")
+
+userGuess = ""
+cookiePoints = 5
+
+while userGuess != "stomp":
+  print("I _____ the enemy top laner")
+  userGuess = input("What is your guess? ")
+  if userGuess == "stomp":
+    break
+  else:
+    print("Incorrect, try again!\n")
+    cookiePoints = cookiePoints - 1
+print("Congratuations, you got it correct and escaped with ", cookiePoints, " cookie points!")
