@@ -1,1 +1,22 @@
-
+number = 10
+Guesses = 0
+guess = ""
+while True:
+  guess = int(input("\nGuess a NUMBER between 1 and 10: "))
+  Guesses = Guesses + 1
+  if guess == number:
+    print("\nYou got it!")
+    print("It took you", Guesses, "guesses!")
+    print("Enjoy your prize of absoloutely nothing!")
+    exit()
+  elif guess > number:
+    print("Too high!")
+    continue
+  elif guess < number:
+    print("Too Low!")
+    continue
+  else:
+    print("Error the input is not a valid")
+    print("Please try again")
+    continue
+# This doesn't matter cause if it's not a number it will break since it's just looking for a number
