@@ -1,0 +1,12 @@
+range_Start = 0
+range_End = 0
+range_Increment = 0
+
+# Ask user for input
+range_Start = int(input("Please enter a starting number for the range: "))
+range_End = int(input("Please enter a Ending number for the range: "))
+range_Increment = int(input("Please enter Increment for the range: "))
+
+# Print the range based off user input
+for i in range (range_Start, range_End, range_Increment):
+  print(i)
