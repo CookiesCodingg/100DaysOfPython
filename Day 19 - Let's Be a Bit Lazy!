@@ -1,0 +1,4 @@
+Debt = 1000.00
+for total_Debt_Year in range(10):
+  Debt = (Debt*1.05)
+  print("Your Total Debt by year ", total_Debt_Year+1, " is ", round(Debt,2))
