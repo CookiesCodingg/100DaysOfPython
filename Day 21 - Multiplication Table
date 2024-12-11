@@ -1,0 +1,16 @@
+# Defines variables outside of the main function
+input_Number = int(input("Enter a whole number: "))
+counter = int(1)
+points = int(0)
+
+# Runs the main function takes user input and puts it through a multiplication table x1-10 and checks the users answer to question for every variable.
+for mTabel in range(1,11):
+  answer = input_Number * mTabel
+  user_Answer = int(input("What is " + str(input_Number) + " times " + str(counter) + "? "))
+  if user_Answer == answer:
+    print("Correct!")
+    points = points + 1
+  else:
+    print("Incorrect!")
+  counter = counter + 1
+print("\n-------\n\nYou got " + str(points) + " out of 10!")
