@@ -1,0 +1,27 @@
+#Imports needed libraries
+import random
+
+#Prints a basic intro
+print("Hello, welcome to the guessing game!")
+print("You have just started a game from here\na number between 1 and 1000000 will be\ngenerated. Your device will explode\nin 20 tries if you don't get it, good luck!\n\n-------\n")
+
+#Intiates the variables
+number = int(-1)
+answer = int(0)
+guesses = int(0)
+
+#Generates a random number
+number = random.randint(1, 1000000)
+
+#Runs the while loop that tells you if your guess is to high or low, also keeps track of quantity of guesses
+while answer != number:
+  answer = int(input("What is your guess?"))
+  guesses += 1
+  if answer > number:
+    print("Too high!")
+  elif answer < number:
+    print("Too low!")
+  print("\n")
+else:
+  print("\n\nYou got it!")
+  print("It only took you " + str(guesses) + " guesses.")
