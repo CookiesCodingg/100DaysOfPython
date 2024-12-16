@@ -1,0 +1,17 @@
+print("Please login to your account")
+username = ""
+password = ""
+
+def login():
+  username = input("Username: ")
+  password = input("Password: ")
+  return username, password
+
+
+while True:
+  username, password = login()
+  if username == "A" and password == "A":
+    print("Welcome to Replit")
+    break
+  else :
+    print("\n|===============================================|\n|Incorrect Username or Password Please Try again|\n|===============================================|\n")
