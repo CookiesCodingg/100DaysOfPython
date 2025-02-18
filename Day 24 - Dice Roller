@@ -1,0 +1,20 @@
+import random
+
+# Define the role dice function
+def roll():
+  print("\nHow many sides does the die you seek posses?")
+  dieSides = int(input())
+  role = random.randint(1,dieSides);
+  print("=========================\nYou rolled a ------> " + str(role), "\n=========================")
+
+# Welcomes user and runes the role function
+print("Welcome to the Dice Roller!")
+roll()
+
+# Asks user if they want to roll again, if not closes script
+print("\nI hope you enjoyed your roll! Would you like to roll again?")
+while input() == "yes":
+  roll()
+  print("\n\nWould you like to roll again?")
+else:
+  print("Thank you for using the Dice Roller!\nHave a nice day!")
